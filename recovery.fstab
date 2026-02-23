@@ -1,0 +1,13 @@
+# mount point   fstype    device                          flags
+/boot           emmc      /dev/block/by-name/boot_a
+/system         ext4      /dev/block/dm-4                 flags=display="System";logical
+/vendor         ext4      /dev/block/dm-5                 flags=display="Vendor";logical
+/product        ext4      /dev/block/dm-6                 flags=display="Product";logical
+/data           f2fs      /dev/block/by-name/userdata     flags=display="Data"
+/metadata       ext4      /dev/block/by-name/metadata
+/persist        ext4      /dev/block/by-name/persist      flags=display="Persist"
+/lenovocust     ext4      /dev/block/by-name/lenovocust   flags=display="LenovoCust"
+/protect_f      ext4      /dev/block/by-name/protect1     flags=display="Protect_f"
+/protect_s      ext4      /dev/block/by-name/protect2     flags=display="Protect_s"
+/nvdata         ext4      /dev/block/by-name/nvdata       flags=display="NVData"
+/nvcfg          ext4      /dev/block/by-name/nvcfg        flags=display="NVCfg"
