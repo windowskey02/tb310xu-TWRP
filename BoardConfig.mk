@@ -54,3 +54,8 @@ BOARD_SUPER_PARTITION_SIZE := 8589934592
 BOARD_SUPER_PARTITION_GROUPS := mtk_dynamic_partitions
 BOARD_MTK_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_MTK_DYNAMIC_PARTITIONS_SIZE := 8585740288
+
+# when she en passanting my recovery partition so i put the recovery in boot
+
+BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
